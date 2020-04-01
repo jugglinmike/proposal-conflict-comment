@@ -1,0 +1,23 @@
+{
+  "name": "proposal-conflict-comment",
+  "version": "1.0.0",
+  "description": "A proposal to extend the lexical grammar of ECMAScript with Git conflict markers",
+  "main": "index.js",
+  "scripts": {
+    "build": "ecmarkup spec.emu index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jugglinmike/proposal-conflict-comment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jugglinmike/proposal-conflict-comment/issues"
+  },
+  "homepage": "https://github.com/jugglinmike/proposal-conflict-comment#readme",
+  "dependencies": {
+    "ecmarkup": "3.13.0"
+  }
+}

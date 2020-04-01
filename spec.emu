@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<meta charset="utf8">
+<link rel="stylesheet" href="./spec.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
+<script src="./spec.js"></script>
+<pre class="metadata">
+title: Conflict Comment
+status: proposal
+stage: 0
+contributors: Mike Pennisi
+location: https://github.com/jugglinmike/proposal-conflict-comment/
+</pre>
+
+<emu-clause id="sec-scope">
+  <h1>Scope</h1>
+  <p>
+    This document describes changes to ECMA262 as recommended by <a href="https://github.com/jugglinmike/proposal-conflict-comment/">the Conflict Comment proposal</a>.
+  </p>
+</emu-clause>
+
+<emu-clause id="sec-ecmascript-language-lexical-grammar">
+  <h1>ECMAScript Language: Lexical Grammar (<a href="https://tc39.es/ecma262/#sec-ecmascript-language-lexical-grammar">11</a>)</h1>
+
+  <h2>Syntax</h2>
+  <emu-grammar>
+    MultiLineComment ::
+      `/*` MultiLineCommentChars? `*/`
+      <ins>`<<<<<<<` MultLineCommentChars? `=======`</ins>
+
+    SingleLineComment ::
+      `//` SingleLineCommentChars?
+      <ins>`>>>>>>>` SingleLineCommentChars?</ins>
+  </emu-grammar>
+</emu-clause>
