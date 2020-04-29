@@ -1,5 +1,9 @@
 # Conflict Comment
 
+*This project was created as an [April Fools'
+Day](https://en.wikipedia.org/wiki/April_Fools'_Day) joke for April 1, 2020. It
+is not a sincere proposal.*
+
 This repository contains a proposal for extending the lexical grammar of the
 ECMAScript programming language. It is currently in stage 0 of [the TC39
 process](https://tc39.github.io/process-document/).
